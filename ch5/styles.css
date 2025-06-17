@@ -1,0 +1,74 @@
+/* Patrick Weaver, June 15 2025 */
+
+html {
+  background-color: #1d1d20;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #d7c7aa;
+  color: #926f4f;
+  font-size: 16px;
+}
+
+nav {
+  height: 35px;
+}
+
+a:link {
+  color: #8b1010;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+a:visited {
+  color: #00602b;
+  background-color: #ffffff;
+}
+
+header {
+  background-color: #00602b; /* Green for Italian vibe */
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  color: #ffffff;
+}
+
+main {
+  font-weight: bold;
+  background-image: url(marble-2362262_1920.jpg);
+  background-repeat: repeat-x; 
+}
+
+h2, h3 {
+  color: #342517;
+}
+
+p {
+  color: #230e06;
+  background-color: #ffffff;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #ee1e28;
+  font-style: italic;
+}
+
+.special-item {
+  background-color: #ffffff;
+}
+
+#footer {
+  text-align: center;
+  color: white;
+  background-color: #bb161d;
+}
