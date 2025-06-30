@@ -1,0 +1,74 @@
+/* Patrick Weaver, June 25 2025 */
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  color: #f6f5f4;
+  background-color: #ff7800;
+  margin-top: -1em;
+  padding: 10px;
+}
+
+nav ul {
+  background-color: #e66100;
+  list-style-type: none;
+  display: flex;
+  gap: 3rem;
+  margin-top: -1em;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+nav a {
+  color: #f6f5f4;
+}
+
+.positioning-right {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.picture-right {
+  float: right;
+  width: 45%;
+  overflow: hidden;
+}
+
+.picture-right img {
+  width: 100%;
+}
+
+.positioning-right::after {
+  display: block;
+  content: "";
+  clear: both
+}
+
+.descriptor {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.selfie {
+  min-width: 240px;
+  max-width: 30%;
+}
+
+hr {
+  color: #ffffff;
+}
+
+footer {
+  color: #deddda;
+  background-color: #26a269;
+  margin-bottom: -1em;
+  padding: 6px;
+}
